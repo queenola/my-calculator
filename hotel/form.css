@@ -1,0 +1,322 @@
+#page{
+    display: grid;
+    grid-template-rows: 300px 300px 100px;
+    background: #E5E5E5;
+}
+*{
+    margin: 0;
+}
+#nav ul{
+    display: grid;
+    grid-template-columns: 100px 100px 120px 100px;
+    background: #2F80ED;
+    height: 70px;
+    list-style: none;
+ 
+}
+#nav ul li{
+    margin-top: 40px;
+    
+}
+#nav ul li a:hover{
+    background: #E5E5E5;
+    color: #2F80ED;
+    text-decoration: underline;
+}
+#nav ul li a{
+    text-decoration: none;
+    background: rgb(80, 149, 240);
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 800px;
+    color: white;
+    text-transform: uppercase;
+}
+.home{
+    width: 70px;
+}
+#forms{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    margin-left: 400px;
+    margin-top: -50px;
+
+}
+.formhotels{
+    display: grid;
+    grid-template-rows: 50px 200px;
+    width: 240px;
+    height: 277px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.formflight{
+    display: grid;
+    grid-template-rows: 50px 200px;
+    width: 240px;
+    height: 277px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.search{
+    text-align: center;
+    margin: 10px;
+    width: 219px;
+    height: 33px;
+    
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.check-in{
+    margin-left: 10px;
+    width: 103px;
+    height: 33px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.check-in3{
+    margin-left: 10px;
+    width: 103px;
+    height: 33px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 95px;
+}
+
+#form-nav{
+    display: grid;
+    grid-template-columns: 120px 120px;
+}
+#hot{
+    width: 113.95px;
+    height: 30px;
+    padding-top: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: #2F80ED;
+}
+#fli{
+    border-top-right-radius: 5px;
+    width: 120px;
+    margin-left: 2px;
+    padding-top: 5px;
+    text-decoration: none;
+    height: 50px;
+    background: #2F80ED;
+    width: 117.91px;
+    height:30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#fli2{
+    width: 113.95px;
+    height: 30px;
+    padding-top: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: #2F80ED;
+}
+#hot2{
+    border-top-left-radius: 5px;
+    width: 120px;
+    padding-top: 5px;
+    text-decoration: none;
+    height: 50px;
+    background: #2F80ED;
+    width: 117.91px;
+    height:30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#sfh{
+    width: 219px;
+    height: 30px;
+    font-family: Lato;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1rem;
+    text-align: center;
+    color: #4F4F4F;
+}
+#cal{
+    margin-left: -100px;
+}
+.submit{
+    width: 166px;
+    margin: 20px;
+    margin-left: 50px;
+    border: none;
+    height: 31px;
+    width: 138px;
+    height: 29px;         
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border-radius: 3px;
+}
+#p1{
+    width: 80px;
+    height: 12px;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1rem;
+    color: #000000;
+
+}
+#p2{
+    width: 80px;
+    height: 12px;
+    margin-top: -15px;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1rem;
+    color: #000000;
+
+}
+.logo{
+    float: right;
+    margin-right: 50px;
+    margin-top: -15px;
+}
+#return{
+    width: 90px;
+    height: 50px;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 0.718795px solid #1BB3F5;
+    box-sizing: border-box;
+    border-radius: 6.16px;
+    font-size: 13px;
+    color: #1BB3F5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#p3{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    font-size: 1rem;
+    color: #4F4F4F;
+}
+#from{
+    width: 84px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+#dest{
+    width: 84px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 145px;
+    text-align: center;
+}
+#ar2{
+    margin-left: -35px;
+    margin-bottom: -5px;
+}
+#ar{
+    margin-top: -25px;
+    margin-left: 105px
+}
+#ar1{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.check-in1{
+    width: 103px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.flightbox{
+    width: 103px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.flightbox1{
+    width: 103px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 10px;
+    text-align: center;
+
+}
